@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AdminC">
+   <children>
+      <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="568.0" prefWidth="789.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <AnchorPane prefHeight="93.0" prefWidth="776.0" style="-fx-background-color: black;" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="89.0" fitWidth="103.0" layoutX="14.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true" smooth="false">
+                     <image>
+                        <Image url="@../../../../OneDrive/Documents/logo/logo%20navigate.JPG" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="BackA" layoutX="669.0" layoutY="27.0" mnemonicParsing="false" onAction="#BackAction" prefHeight="38.0" prefWidth="94.0" text="BACK">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Button>
+                  <Label layoutX="260.0" layoutY="33.0" text="ARAADIA CLOTHING STORE" textFill="#aba6a6" wrapText="true">
+                     <font>
+                        <Font name="SansSerif Bold" size="23.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </top>
+         <right>
+            <AnchorPane prefHeight="458.0" prefWidth="785.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+               <children>
+                  <AnchorPane layoutX="-4.0" prefHeight="59.0" prefWidth="789.0" style="-fx-background-color: #D3D3D3;">
+                     <children>
+                        <Label layoutX="272.0" layoutY="3.0" prefHeight="53.0" prefWidth="289.0" text="Welcome , Admin" textFill="#0d0a0a">
+                           <font>
+                              <Font name="Yu Gothic UI Regular" size="36.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="51.0" fitWidth="99.0" layoutX="221.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../OneDrive/Documents/logo/Admin-Profile-Vector-PNG-Photos.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <Button fx:id="viewStock" layoutX="21.0" layoutY="217.0" mnemonicParsing="false" onAction="#viewStockAction" prefHeight="100.0" prefWidth="223.0" text="View Stock">
+                     <font>
+                        <Font name="System Bold" size="32.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="orderStock" layoutX="21.0" layoutY="330.0" mnemonicParsing="false" onAction="#orderStockAction" prefHeight="100.0" prefWidth="223.0" text="Order Stock">
+                     <font>
+                        <Font name="System Bold" size="32.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="Assigndelivery" layoutX="281.0" layoutY="330.0" mnemonicParsing="false" onAction="#AssignDeliveryAction" prefHeight="100.0" prefWidth="315.0" text="Assign Delivery">
+                     <font>
+                        <Font name="System Bold" size="34.0" />
+                     </font>
+                  </Button>
+                  <Label layoutX="25.0" layoutY="75.0" prefHeight="50.0" prefWidth="137.0" text="Your Info" textFill="#393333">
+                     <font>
+                        <Font name="System Bold" size="28.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="584.0" layoutY="67.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../OneDrive/Documents/logo/download%20(2).jpeg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="25.0" layoutY="125.0" text="Muhammad Ahmed">
+                     <font>
+                        <Font name="System Bold Italic" size="23.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="25.0" layoutY="162.0" text="Ahmed.m@gamil.com">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="25.0" layoutY="196.0" text="Administrator" />
+                  <Button fx:id="logout" layoutX="642.0" layoutY="380.0" mnemonicParsing="false" onAction="#logoutAction" prefHeight="44.0" prefWidth="117.0" style="-fx-background-color: GRAY;" text="Logout" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="GenerateReport" layoutX="281.0" layoutY="217.0" mnemonicParsing="false" onAction="#GenerateAction" prefHeight="100.0" prefWidth="315.0" text="Generate Report">
+                     <font>
+                        <Font name="System Bold" size="34.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </right>
+         
+      </BorderPane>
+   </children>
+</AnchorPane>

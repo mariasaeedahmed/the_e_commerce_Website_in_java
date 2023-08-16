@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="568.0" prefWidth="789.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CustomerPortalController">
+   <left>
+      <AnchorPane prefHeight="549.0" prefWidth="789.0" style="-fx-background-color: black;" BorderPane.alignment="CENTER">
+         <children>
+            <AnchorPane layoutX="387.0" layoutY="5.0" prefHeight="575.0" prefWidth="405.0" style="-fx-background-color: white;">
+               <children>
+                  <ImageView fitHeight="62.0" fitWidth="212.0" layoutX="94.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../OneDrive/Documents/logo/download.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="75.0" layoutX="37.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../OneDrive/Documents/logo/cart1.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" layoutX="10.0" layoutY="153.0" prefHeight="37.0" prefWidth="385.0" style="-fx-background-color: #eee3e3;" text="Welcome to Customer Portal" textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font name="SansSerif Bold" size="27.0" />
+                     </font>
+                     <textFill>
+                        <RadialGradient centerX="0.4886363636363636" centerY="0.4854368932038835" focusDistance="-0.024390243902439046" radius="0.9634146341463414">
+                           <stops>
+                              <Stop color="BLACK" />
+                              <Stop color="WHITE" offset="1.0" />
+                           </stops>
+                        </RadialGradient>
+                     </textFill>
+                  </Label>
+                  <Button id="LogB" fx:id="SignUp" alignment="CENTER" layoutX="106.0" layoutY="235.0" mnemonicParsing="false" onAction="#SignAction" prefHeight="42.0" prefWidth="189.0" style="-fx-background-color: GRAY;" text="Sign Up" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="32.0" />
+                     </font>
+                  </Button>
+                   <Button id="LogB" fx:id="LogC" alignment="CENTER" layoutX="106.0" layoutY="345.0" mnemonicParsing="false" onAction="#LoginAction" prefHeight="42.0" prefWidth="189.0" style="-fx-background-color: GRAY;" text="Login" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="32.0" />
+                     </font>
+                  </Button>
+                   <Button id="LogB" fx:id="GoBack" alignment="CENTER" layoutX="108.0" layoutY="447.0" mnemonicParsing="false" onAction="#Back" prefHeight="42.0" prefWidth="189.0" style="-fx-background-color: GRAY;" text="Go Back" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="32.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="215.0" fitWidth="301.0" layoutX="68.0" layoutY="180.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../OneDrive/Documents/logo/c9af7e9a-7272-4254-ad16-2cc6b4ff6329.jpeg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="575.0" fitWidth="388.0" layoutY="5.0" opacity="0.1" pickOnBounds="true">
+               <image>
+                  <Image url="@../../../../../OneDrive/Documents/logo/images.jpeg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+</BorderPane>

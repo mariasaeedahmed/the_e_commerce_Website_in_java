@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="568.0" prefWidth="789.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SignupController">
+   <left>
+      <AnchorPane prefHeight="549.0" prefWidth="789.0" style="-fx-background-color: black;" BorderPane.alignment="CENTER">
+         <children>
+            <AnchorPane layoutX="428.0" layoutY="5.0" prefHeight="575.0" prefWidth="364.0" style="-fx-background-color: white;">
+               <children>
+                  <ImageView fitHeight="62.0" fitWidth="212.0" layoutX="94.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../OneDrive/Documents/logo/download.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="75.0" layoutX="37.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../OneDrive/Documents/logo/cart1.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" layoutX="122.0" layoutY="125.0" prefHeight="43.0" prefWidth="120.0" style="-fx-background-color: #eee3e3;" text="Signup" textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font name="SansSerif Bold" size="32.0" />
+                     </font>
+                     <textFill>
+                        <RadialGradient centerX="0.4886363636363636" centerY="0.4854368932038835" focusDistance="-0.024390243902439046" radius="0.9634146341463414">
+                           <stops>
+                              <Stop color="BLACK" />
+                              <Stop color="WHITE" offset="1.0" />
+                           </stops>
+                        </RadialGradient>
+                     </textFill>
+                  </Label>
+                  <TextField fx:id="Name" layoutX="150.0" layoutY="230.0" onAction="#NameAction" prefHeight="44.0" prefWidth="207.0" promptText="Name" style="-fx-border-width: 3;">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <Button fx:id="BacktoCustomerPortal" alignment="CENTER" layoutX="94.0" layoutY="479.0" mnemonicParsing="false" onAction="#BacktoCustomerPortalAction" prefHeight="41.0" prefWidth="85.0" style="-fx-background-color: GRAY;" text="Back" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="NextSignUp" alignment="CENTER" layoutX="264.0" layoutY="479.0" mnemonicParsing="false" onAction="#NextSignUpAction" prefHeight="41.0" prefWidth="85.0" style="-fx-background-color: GRAY;" text="Next" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <TextField fx:id="UserNamee" layoutX="152.0" layoutY="318.0" onAction="#UserNameAction" prefHeight="47.0" prefWidth="203.0" promptText="Username">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="Address" layoutX="151.0" layoutY="399.0" onAction="#AddressAction" prefHeight="48.0" prefWidth="204.0" promptText="Address">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </TextField>
+                  <Label alignment="CENTER" layoutX="14.0" layoutY="230.0" prefHeight="43.0" prefWidth="123.0" text="Enter Name" textAlignment="CENTER" textFill="#430808">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="23.0" layoutY="328.0" prefHeight="28.0" prefWidth="105.0" text="Username" textFill="#430808">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="19.0" layoutY="413.0" prefHeight="21.0" prefWidth="113.0" text="Address" textFill="#430808">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="215.0" fitWidth="301.0" layoutX="68.0" layoutY="180.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../OneDrive/Documents/logo/c9af7e9a-7272-4254-ad16-2cc6b4ff6329.jpeg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="575.0" fitWidth="429.0" layoutY="5.0" opacity="0.1" pickOnBounds="true">
+               <image>
+                  <Image url="@../../../../../OneDrive/Documents/logo/images.jpeg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+</BorderPane>
